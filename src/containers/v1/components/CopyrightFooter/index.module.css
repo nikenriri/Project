@@ -1,0 +1,15 @@
+.footerClass {
+	font-size: 9px;
+	color: var(--greyColor);
+	height: 5vh;
+	width: 100vw;
+	background-color: transparent;
+	z-index: 99;
+}
+
+.textFooter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 99;
+}

@@ -1,0 +1,43 @@
+.bordered {
+	box-shadow: 0 8px 6px -6px black;
+}
+.navbar {
+	height: 10vh;
+	width: 85%;
+	margin: 0 auto;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header {
+	height: 10vh;
+	width: 100vw;
+	/* margin: 0 auto; */
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* .icon-img {
+	height: 20%;
+} */
+
+.leftHeader {
+	display: inline-flex;
+}
+
+.version {
+	font-size: 10px;
+	align-self: flex-end;
+	font-style: italic;
+	font-weight: 600;
+}
+
+
+.uid {
+	font-size: 14px;
+}

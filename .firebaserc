@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "ipick-cp-referral-web-dev",
+    "app:dev": "ipick-cp-referral-web-dev",
+    "app:stag": "ipick-cp-referral-web-stag",
+    "app:prod": "ipick-cp-referral-web-prod"
+  }
+}

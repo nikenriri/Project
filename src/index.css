@@ -1,0 +1,186 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'antd/dist/reset.css';
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+/*
+Cause error validating message inresponsive
+*/
+/* * {
+  overflow: hidden;
+} */
+
+body {
+  margin: 0;
+  font-family: "Oxygen", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+ Cause some components inresponsive
+*/
+/* html,
+body > div {
+  height: 100%;
+} */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+:root {
+  --themeColor: hsl(0, 0%, 100%);
+  --themeBackgroundColor: rgb(239, 136, 1);
+  --creamColor: hsl(31, 100%, 96%);
+  --orangeColor: rgb(239, 136, 1);
+  --orangeColorFilter: invert(51%) sepia(56%) saturate(1648%) hue-rotate(5deg) brightness(99%) contrast(99%); 
+  --dark-orange: rgb(240, 136, 0, 1);
+  --medium-orange: #f6d084;
+  --light-orange: #fef6e7;
+  --whiteColor: hsl(0, 0%, 100%);
+  --greyColor: hsl(0, 2%, 67%);
+  --greyColorFilter: invert(98%) sepia(3%) saturate(114%) hue-rotate(213deg) brightness(118%) contrast(86%);
+  --lightDGreyColor: hsla(0, 3%, 85%, 0.391);
+  --lightGreyColor: hsla(0, 0%, 93%, 0.467);
+  --page_ssoAccess_bg_height: 90vh;
+  --page_ssoAccess_bg_width: 50vw;
+}
+
+button {
+  border: 0;
+  border-radius: 6px;
+}
+
+input {
+  border: 0;
+  outline: none;
+}
+
+a:link,
+a {
+  text-decoration: none;
+}
+
+html, body, #app, #app>div {
+   min-height: 100%;
+   height: fit-content;
+
+}
+
+#app-root {
+  min-height: 100vh;
+  height: fit-content;
+}

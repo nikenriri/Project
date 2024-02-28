@@ -1,0 +1,11 @@
+.ButtonLink {
+	color: var(--themeColor);
+	background-color: transparent;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+
+.ButtonLink:hover,
+.ButtonLink:focus {
+	text-decoration: underline;
+}

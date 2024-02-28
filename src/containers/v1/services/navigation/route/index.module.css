@@ -1,0 +1,7 @@
+.container {
+	position: relative;
+	margin: 0;
+	width: 100vw;
+	min-height: 90vh;
+	/* height: fit-content; */
+}
